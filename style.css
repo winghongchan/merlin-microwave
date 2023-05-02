@@ -1,0 +1,22 @@
+:root {
+  accent-color: #FFC21E;
+  color-scheme: light dark;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.app-icon {
+  background-image: url("/images/merlin-microwave-light-192.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (prefers-color-scheme: dark) {
+  .app-icon {
+    background-image: url("/images/merlin-microwave-dark-192.svg");
+  }
+}
