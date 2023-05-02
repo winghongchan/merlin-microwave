@@ -1,0 +1,23 @@
+{
+  "name": "Mīcrowävé", 
+  "icons": [
+    {
+      "src": "/images/merlin-microwave-dark-512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/merlin-microwave-dark-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }, 
+    {
+      "src": "/images/merlin-microwave-dark-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html", 
+  "display": "standalone",
+  "description": "Timing converter for microwave recipes"
+}
